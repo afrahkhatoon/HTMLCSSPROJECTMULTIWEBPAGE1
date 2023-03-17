@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM plex sans", sans-serif;
+    outline: 0;
+}
+
+body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+}
+
+nav {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+nav img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: 600;
+    margin-right: 50px;
+}
+
+nav ul li:first-child {
+    font-weight: 700;
+    color: #20bc7e;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+main section {
+    width: 50%;
+}
+
+.left-side {
+    margin-left: 5%;
+    position: relative;
+}
+
+.topAngle {
+    width: 25px;
+}
+
+.left-side h1 {
+    font-size: 70px;
+}
+
+.left-side p {
+    margin: 20px 0;
+    color: #7c7c7c;
+    font-size: 18px;
+}
+
+.bottomangle{
+    width: 25px;
+    position: absolute;
+    right: 25px;
+}
+
+.stethoscope {
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25%;
+    z-index: -1;
+}
+
+.mouse{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+}
+
+.left-side button {
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background-color: #20bc7e;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+.greenbox,
+.yellowbox {
+    right: 0;
+    position: absolute;
+}
+
+.greenbox {
+    width: 35%;
+    bottom: 30px;
+}
+
+.yellowbox {
+    width: 30%;
+    bottom: 50px;
+
+}
+
+.doctor {
+    right: 0;
+    bottom: 0;
+    height: 90%;
+    position: absolute;
+}
